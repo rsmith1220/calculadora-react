@@ -1,0 +1,40 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora en react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack serve --mode production",
+    "build": "webpack",
+    "lint": "eslint src/**"
+  },
+  "author": "Rebecca",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.1.0",
+    "react-dom": "^17.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.2.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "mocha": "^10.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
