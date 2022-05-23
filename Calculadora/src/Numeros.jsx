@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Boton';
+import Button from './Boton.jsx';
 
 export default class ButtonNumber extends React.Component {
   clickOp(v) {
@@ -22,7 +22,7 @@ export default class ButtonNumber extends React.Component {
       <div style={bodyStyle}>
         <Button color="#99ccff" id="bCE" text="CE" click={this.clickOp('CE')} />
         <Button color="#99ccff" classname="boton" id="bC" text="C" click={this.clickOp('C')} />
-        <Button classname="boton" id="bB" text="<-" click={this.clickOp('<-')} />
+        <Button classname="boton" id="bB" text="bspce" click={this.clickOp('<-')} />
         <Button color="#ff99cc" classname="boton" id="bD" text="/" click={this.clickOp('/')} />
         <Button color="#cc99ff" classname="boton" id="b7" text="7" click={this.click('7')} />
         <Button color="#cc99ff" classname="boton" id="b8" text="8" click={this.click('8')} />

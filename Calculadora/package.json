@@ -2,7 +2,7 @@
   "name": "calculadora",
   "version": "1.0.0",
   "description": "Calculadora en react",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "jest",
     "dev": "webpack serve --mode production",

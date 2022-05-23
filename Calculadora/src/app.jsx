@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonNumber from './Numeros';
-import Display from './display';
+import ButtonNumber from './Numeros.jsx';
+import Display from './display.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
